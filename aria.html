@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City Boy Petz LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="aria.css">
+</head>
+<body>
+
+ 
+  <header>
+    <h1>City Boy Petz LLC</h1>
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section style="background-image: url('hero-image.jpg'); background-size: cover; background-position: center; padding: 60px 20px; color: rgb(255, 0, 0); text-align: center;">
+    <h2>Welcome to City Boy Petz</h2>
+    <p>Where urban pet care meets love and style!</p>
+    <a href="#contact" style="background-color: #000; color: #fffcfc; padding: 10px 20px; text-decoration: none; display: inline-block; margin-top: 20px;">Book Now</a>
+  </section>
+
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At City Boy Petz, we bring fun, fashion, and love to every tail and paw. From grooming to unforgettable pet parties, we’re your city’s #1 pet lifestyle service.</p>
+  </section>
+
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services" style="display: flex; flex-wrap: wrap; gap: 20px;">
+      <article style="flex: 1; min-width: 250px;">
+        <h3>Pet Grooming</h3>
+        <p>We groom all animals with care and flair—because every pet deserves to shine.</p>
+      </article>
+      <article style="flex: 1; min-width: 250px;">
+        <h3>Petting Zoo Parties</h3>
+        <p>Book unforgettable parties with rabbits, ponies, ducks, donkeys, snakes & more!</p>
+      </article>
+      <article style="flex: 1; min-width: 250px;">
+        <h3>Animal Photo Shoot Rental</h3>
+        <p>Rent animals by the hour for fashion shoots, film, or social media content.</p>
+      </article>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form aria-label="Contact Form">
+      <label for="name">Name:</label>
+      <input id="name" name="name" type="text" required aria-required="true"><br><br>
+
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" required aria-required="true"><br><br>
+
+      <label for="subject">Subject:</label>
+      <input id="subject" name="subject" type="text"><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+  <footer style="background-color: #ff0000; padding: 20px; text-align: center;">
+    <p>&copy; 2025 City Boy Petz LLC</p>
+    <p>Contact: info@cityboypetz.com | (555) 5555555</p>
+    <p>
+      <a href="#">cityboypetz</a> |
+      <a href="#">cityboypetz</a> |
+      <a href="#">cityboypetz</a>
+    </p>
+  </footer>
+
+</body>
+</html>
